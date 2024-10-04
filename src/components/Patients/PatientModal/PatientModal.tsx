@@ -18,15 +18,15 @@ const PatientModal: React.FC<PatientMoodalProps> = (
      className="modal-container flex items-center justify-center fixed left-0 top-0 w-full h-full bg-modal-background z-20"
     >
       <div className="relative w-full max-w-lg bg-white rounded-lg shadow-md">
-        <div className="flex flex-col bg-white rounded-lg shadow dark:bg-gray-700 ">
-          <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+        <div className="flex flex-col bg-white rounded-lg shadow ">
+          <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+            <h3 className="text-lg font-semibold text-gray-900">
               {patient ? `Edit Patient` : `Add New Patient`}
             </h3>
             <button
               type="button"
               onClick={onClose}
-              className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-lg w-6 h-6 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-lg w-6 h-6 ms-auto inline-flex justify-center items-center"
             >
               &times;
             </button>

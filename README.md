@@ -2,18 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-
 ## Running the Project
 
 1. Install dependencies:
@@ -35,13 +23,28 @@ Builds the app for production to the `build` folder. It correctly bundles React 
    ```
 
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+
+
+
 ## Descripción del Proyecto
 Este proyecto es una aplicación simple en React diseñada para gestionar datos de pacientes. Consta de dos páginas principales:
 
 Página de Inicio: Sirve como la página de aterrizaje de la aplicación.
+
 Página de Lista de Pacientes: Muestra una lista de todos los pacientes y permite gestionar los datos de los pacientes, incluyendo ver, agregar y actualizar los registros.
 
-Decisiones de Diseño
+### Decisiones de Diseño
 
 Modales para la Gestión de Pacientes:
 

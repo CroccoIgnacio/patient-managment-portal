@@ -23,7 +23,7 @@ const PatientForm: React.FC<PatientFormProps> = (props: PatientFormProps) => {
         <div>
           <label
             htmlFor="name"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            className="block mb-2 text-sm font-medium text-gray-900"
           >
             Name
           </label>
@@ -41,7 +41,7 @@ const PatientForm: React.FC<PatientFormProps> = (props: PatientFormProps) => {
         <div>
           <label
             htmlFor="Description"
-            className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            className="block mb-2 text-sm font-medium text-gray-900"
           >
             Description
           </label>

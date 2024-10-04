@@ -25,7 +25,7 @@ const PatientCard: React.FC<PatientCardProps> = (props: PatientCardProps) => {
   };
 
   return (
-    <div className="w-64 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-64 max-w-sm bg-white border border-gray-200 rounded-lg shadow">
       <div className="flex justify-end px-4 pt-4">
         <button
           className="hover:bg-gray-300 rounded p-2 transition-colors duration-300"
@@ -43,7 +43,7 @@ const PatientCard: React.FC<PatientCardProps> = (props: PatientCardProps) => {
             (e.target as HTMLImageElement).src = placeholder;
           }}
         />
-        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+        <h5 className="mb-1 text-xl font-medium text-gray-900">
           {name}
         </h5>
         <div className="flex items-center justify-center">
@@ -55,7 +55,7 @@ const PatientCard: React.FC<PatientCardProps> = (props: PatientCardProps) => {
           className={`overflow-hidden transition-max-height duration-500 ease-in-out ${isExpanded ? 'max-h-screen' : 'max-h-0'}`}
         >
           {isExpanded && (
-            <p className="mt-2 text-gray-600 dark:text-gray-400 text-center p-2">
+            <p className="mt-2 text-gray-600 text-center p-2">
               {description}
             </p>
           )}
